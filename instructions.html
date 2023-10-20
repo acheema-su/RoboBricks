@@ -5,6 +5,154 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Instructions</title>
     <link rel="stylesheet" href="bricks.css">
+    <style>
+        h1 {
+            font-size: 4em;
+        }
+        .container1 img {
+            width: 400px;
+            height: 500px;
+            margin: 10px;
+            border-radius: 50px;
+        }
+        .container2 img {
+            width: 900px;
+            height: 500px;
+            margin: 10px;
+            border-radius: 50px;
+        }
+        .row2 {
+            display: flex;
+            justify-content: center; /* center items horizontally */
+            align-items: center; /* center items vertically */
+        
+            
+        }
+        .row2 div {
+             display: flex;
+             flex-direction: column;
+             align-items: center; /* center items horizontally */
+            padding: 20px;
+    
+        }
+        .row2 div p {
+        text-align: center;
+        }
+        #square, #square1, #square2, #square3, #square4, #square5, #square6, #square7, #square8 {
+        display:none;
+        position: absolute;
+        width: 350px;
+        height: 200px;
+        background-color: rgba(0, 0, 0, 0.5);
+        border: 1px solid #000;
+        position: relative;
+        border-radius: 2em;
+        
+        }
+        #square9 {
+        display:none;
+        position: absolute;
+        width: 850px;
+        height: 100px;
+        background-color: rgba(0, 0, 0, 0.5);
+        border: 1px solid #000;
+        position: relative;
+        border-radius: 2em;
+        }
+    
+    </style>
+    <script>
+        function showSquare() {
+        var square = document.getElementById("square" );
+        square.style.display = "block";
+        }
+
+        function hideSquare() {
+        var square = document.getElementById("square");
+        square.style.display = "none";
+        }
+        function showSquare1() {
+        var square1= document.getElementById("square1" );
+        square1.style.display = "block";
+        }
+
+        function hideSquare1() {
+        var square1 = document.getElementById("square1");
+        square1.style.display = "none";
+        }
+        function showSquare2() {
+        var square2= document.getElementById("square2" );
+        square2.style.display = "block";
+        }
+
+        function hideSquare2() {
+        var square2 = document.getElementById("square2");
+        square2.style.display = "none";
+        }
+        function showSquare3() {
+        var square3= document.getElementById("square3" );
+        square3.style.display = "block";
+        }
+
+        function hideSquare3() {
+        var square3 = document.getElementById("square3");
+        square3.style.display = "none";
+        }
+        function showSquare4() {
+        var square4= document.getElementById("square4" );
+        square4.style.display = "block";
+        }
+
+        function hideSquare4() {
+        var square4 = document.getElementById("square4");
+        square4.style.display = "none";
+        }
+        function showSquare5() {
+        var square5= document.getElementById("square5" );
+        square5.style.display = "block";
+        }
+
+        function hideSquare5() {
+        var square5 = document.getElementById("square5");
+        square5.style.display = "none";
+        }
+        function showSquare6() {
+        var square6= document.getElementById("square6" );
+        square6.style.display = "block";
+        }
+
+        function hideSquare6() {
+        var square6 = document.getElementById("square6");
+        square6.style.display = "none";
+        }
+        function showSquare7() {
+        var square7= document.getElementById("square7" );
+        square7.style.display = "block";
+        }
+
+        function hideSquare7() {
+        var square7 = document.getElementById("square7");
+        square7.style.display = "none";
+        }
+        function showSquare8() {
+        var square8= document.getElementById("square8" );
+        square8.style.display = "block";
+        }
+
+        function hideSquare8() {
+        var square8 = document.getElementById("square8");
+        square8.style.display = "none";
+        }
+        function showSquare9() {
+        var square9= document.getElementById("square9" );
+        square9.style.display = "block";
+        }
+
+        function hideSquare9() {
+        var square9 = document.getElementById("square9");
+        square9.style.display = "none";
+        }
+    </script>
 </head>
 <body>
     <nav>
@@ -12,7 +160,7 @@
         <a href="teambios.html">TEAM</a>
         <a href="instructions.html">INSTRUCTIONS</a>
     </nav>
-    <p>
+    <!-- <p>
         <ol>
             <li>Start by building a base. To build a base use a grey 8 x 6 rectangular lego piece. On top of the grey lego piece attach a 4x4 blue square lego piece. </li>
             <li>Gather two yellow transparent Lego pieces. Put each Lego piece in the middle of the shorter side of the grey rectangular piece. </li>
@@ -25,11 +173,88 @@
             <li>Let's make the arms and torso. To do that, gather two blue curved Lego pieces and attach them to the corner of the blue blocks. In the middle of the two curved Lego blocks add a red rectangular piece.</li>
             <li>Add a grey single-line rectangular piece in front of the curved and red Lego piece. Also, add a red and yellow circular Lego piece in front of the torso.</li>
             <li>Let's make the neck. Gather a white 2x4 rectangular piece and add it on top of the torso. On top of that piece add a red square lego piece with five holes. On top of the red square add a 2x2 circular piece with a leg that goes in one of the holes on the square piece.</li>
-            <li>Let's add the eyes on the side holes of the blue singular blocks. Between the eyes add a three-line rectangular Lego piece making a face.</li>
+            <li>Lets make the head. Add a 2x4 white piece. On top  of the white piece add four blue single pieces with holes in them. At back of the four blue single blocks add two green single block Lego pieces with holes in them and add a blue two block in the middle of the green.</li>
+            <li>Let's add the eyes on the side holes of the blue singular blocks. Between the eyes add a three-line rectangular Lego piece making a face. Add on top of that add a grey 2x4 piece and on the side of the green pieces add two singular white pieces.</li>
             <li>Let's add the robot Antenna on top of the head. To do that use a black Lego head. On top of the black Lego head add a shiny red circular piece. </li>
-            <li>Finally, attach the head on top of the neck.</li>
+            <li>Finally, attach the head on top of the neck.
         </ol>
 
-    </p>
+    </p></li> -->
+    <h1>How to Build RoboBricks</h1>
+    <div class="container1">
+        <div class="row2">   
+        <div >
+            <p>Step 1 </p> <img src="images/Robot.jpeg" alt="Step 1" onmouseover="showSquare()" onmouseout="hideSquare()"> 
+            <div id="square">
+                <p>Start by building a base. To build a base use a grey 8 x 6 rectangular lego piece. On top of the grey lego piece attach a 4x4 blue square lego piece.</p>
+              </div>
+        </div >
+      
+        <div>
+            <p>Step 2</p> <img src="images/Robot.jpeg" alt="Step2" onmouseover="showSquare1()" onmouseout="hideSquare1()" >
+            <div id="square1">
+                <p>Gather two yellow transparent Lego pieces. Put each Lego piece in the middle of the shorter side of the grey rectangular piece.</p>
+              </div>
+        </div>
+        <div>
+            <p>Step 3</p> <img src="images/Robot.jpeg" alt="Step3" onmouseover="showSquare2()" onmouseout="hideSquare2()" >
+            <div id="square2">
+                <p>Gather two white and two red circular pieces of Lego and place them in front of the blue square Lego piece. The order of the pieces should be one red and one white.</p>
+              </div>
+        </div>
+    <!-- </div>
+    <div class="row2">
+        <div>
+            <p>New York</p> <img src="../project/images/NewYorkCity.jpeg" alt="NewYorkCity" onmouseover="showSquare3()" onmouseout="hideSquare3()">
+            <div id="square3">
+                <p>New York City, USA: "The Big Apple" is famous for its skyline, its shopping, its food, and its numerous cultural attractions, such as Central Park, the Metropolitan Museum of Art, and Broadway.</p>
+              </div>
+        </div>
+        <div>
+            <p> London</p> <img src="../project/images/london.jpeg" alt="London" onmouseover="showSquare4()" onmouseout="hideSquare4()">
+            <div id="square4">
+                <p>CLondon, UK: The capital of the United Kingdom is known for its historic landmarks, such as Buckingham Palace and the Tower of London, as well as its bustling cultural scene, including its museums, theaters, and music venues.</p>
+              </div>
+        </div>
+        <div>
+            <p>Istanbul</p> <img src="../project/images/TurkeyMosque.jpeg" alt="Istanbul" onmouseover="showSquare5()" onmouseout="hideSquare5()">
+            <div id="square5">
+                <p>Istanbul, Turkey: It is a historic city with a rich cultural heritage, reflecting its position as a former capital of the Ottoman Empire. This city straddles two continents and blends Turkish, Ottoman, and Byzantine cultures, with landmarks like the Hagia Sophia, the Topkapi Palace, and the Grand Bazaar.</p>
+              </div>
+        </div>
+        </div>
+        <div class="row2">
+        <div>
+            <p> Rio de Janeiro </p> <img src="../project/images/Brazil.jpeg" alt="Brazil" onmouseover="showSquare6()" onmouseout="hideSquare6()">
+            <div id="square6">
+                <p>Rio de Janeiro, Brazil: This coastal city is famous for its iconic Cristo Redentor statue, its beaches, and its vibrant nightlife, as well as its annual Carnival celebration.</p>
+              </div>
+        </div>
+        <div>
+            <p> Beijing</p> <img src="../project/images/Beijing.jpeg" alt="Beijing" onmouseover="showSquare7()" onmouseout="hideSquare7()">
+            <div id="square7">
+                <p>Beijing, China: The capital of China is home to ancient landmarks, such as the Forbidden City and the Great Wall of China, as well as modern attractions, including the Bird's Nest Olympic Stadium.</p>
+              </div>
+        </div>
+        <div>
+            <p>Bangkok</p> <img src="../project/images/Bangkok.jpeg" alt="Bangkok" onmouseover="showSquare8()" onmouseout="hideSquare8()">
+            <div id="square8">
+                <p>Bangkok, Thailand: Bangkok is the capital city of Thailand and one of the most popular tourist destinations in Southeast Asia. Known for its vibrant street life and colorful markets, the city is a hub of activity and excitement, attracting millions of visitors each year. The bustling capital of Thailand is known for its street food, its shopping, its temples and palaces, and its vibrant nightlife.</p>
+              </div>
+        </div>
+    </div> -->
+</div>
+
+    <!-- <div class="row2">
+        <div class="container2">
+            <p>Sydney</p> <img src="../project/images/Sydney.jpeg" alt="Sydney"  onmouseover="showSquare9()" onmouseout="hideSquare9()">
+            <div id="square9">
+                <p>Sydney, Australia: The largest city in Australia is famous for its iconic Opera House and Harbour Bridge, as well as its beaches, parks, and vibrant cultural scene.</p>
+              </div>
+        </div>  
+    </div> -->
+
+
+
 </body>
 </html>

@@ -6,14 +6,72 @@
     <title>RoboBricks</title>
     <link rel="stylesheet" href="bricks.css">
 </head>
+<style>
+    .homepage{
+       margin-left: 400px;
+       margin-right: 400px;
+       
+    }
+   /* body {
+        background-image: url(../project/images/london1.jpeg);
+        background-size: 100%;
+    }*/
+ 
+        footer {
+            background-color:rgba(0, 0, 0, 0.4);
+            color: #fff;
+            padding: 10px;
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+        }
+        
+        
+        .inline {
+        
+            color: white; 
+        }
+        #zoom-heading {
+            font-size: 4em;
+            transition: font-size 1s ease-in-out, margin-top 1s ease-in-out;
+            margin-top: 0;
+        }
+    
+        /*nav {
+            background-color: rgba(236, 246, 251, 0.4);
+        }*/
+    
+     
+    </style>
+    <script>
+        window.onload = function() {
+        setTimeout(function() {
+        document.getElementById('zoom-heading').style.fontSize = '8em';
+        document.getElementById('zoom-heading').style.marginTop = '30vh';
+         }, 100);
+        }
+
+    </script>
+
 <body>
     <nav>
         <a href="home.html">HOME</a>
         <a href="teambios.html">TEAM</a>
         <a href="instructions.html">INSTRUCTIONS</a>
     </nav>
+    <h1 id="zoom-heading">Welcome to RoboBricks!</h1>
+    <!-- <div class="home">
     <img src="images/Robot.jpeg" alt="Robot">
-    <p>For our instructions project we are building a robot using legos. The reason why we are doing a project is because we believe that it is essential for college students to know how to build using robot because in their future careers they might need to use legos to build a prototype. Another reason why we are building a robot out of legos is because recently the Los Angeles Rams did an experiment with robots in their stadium and they looked like regular people. It was a super cool study and experiment and it was one of the reasons why we chose to build a robot out a legos. We also live in New York City or close to New York City and we see robots on the streets and all over social media. Robots are becoming a big thing in this world as they have many benefits to offer. Robots are becoming integral to addressing global challenges, from environmental issues to healthcare. College students with robotics knowledge can contribute to the development of solutions that leverage technology for the betterment of society.</p>
-    
+    <p class="homepage">For our instructions project we are building a robot using legos. The reason why we are doing a project is because we believe that it is elemental for college students to know how to build a robot out of legos because in their future careers they might need to use legos to build a prototype.
+    </p> -->
+    <h2>Mission Statement:</h2>
+    <p class="homepage">For our instructions project we are building a robot using legos. The reason why we are doing a project is because we believe that it is elemental for college students to know how to build a robot out of legos because in their future careers they might need to use legos to build a prototype. <br> <br> <br>
+
+        Another reason why we are building a robot out of legos is because recently the Los Angeles Rams did an experiment with robots in their stadium and they looked like regular people. It was a super cool study and experiment and it was one of the reasons why we chose to build a robot out of legos.  <br> <br> <br>
+        
+        We also live in New York City or close to New York City and we see robots on the streets and all over social media. Robots are becoming a big thing in this world as they have many benefits to offer. Robots are becoming integral to addressing global challenges, from environmental issues to healthcare. College students with robotics knowledge can contribute to the development of solutions that leverage technology for the betterment of society.  <br>
+        </p>
+</div>
 </body>
 </html>
