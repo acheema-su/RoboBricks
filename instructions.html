@@ -6,6 +6,29 @@
     <title>Instructions</title>
     <link rel="stylesheet" href="bricks.css">
     <style>
+        .step{
+            margin-left: 160px;
+            align-items: center;
+            font-size: large;
+            font-weight: bold;
+
+        }
+        .row9{
+            display: flex;
+            align-items: center;
+            
+        }
+        .row9 img{
+            width: 300px;
+            height: auto;
+            margin-right: 40px;
+            margin-left: 40px;
+           
+            border-radius: 20px;
+        }
+
+    </style>
+    <!-- <style>
         h1 {
             font-size: 4em;
         }
@@ -197,7 +220,7 @@
         var square14 = document.getElementById("square14");
         square14.style.display = "none";
         }
-    </script>
+    </script> -->
 </head>
 <body>
     <nav>
@@ -228,112 +251,129 @@
 
     </p></li> -->
     <h1>How to Build RoboBricks</h1>
-    <div class="container1">
-        <div class="row2">   
-        <div >
-            <p>Step 1 </p> <img src="images/Step1.png" alt="Step 1" onmouseover="showSquare()" onmouseout="hideSquare()"> 
+      
+        <p class="step">Step 1 </p>
+        <div class="row9">
+              <img src="images/Step1.png" alt="Step 1" onmouseover="showSquare()" onmouseout="hideSquare()"> 
             <div id="square">
                 <p>Start by building a base. To build a base use a grey 8 x 6 rectangular lego piece. On top of the grey lego piece attach a 4x4 blue square lego piece.</p>
               </div>
         </div >
-      
-        <div>
-            <p>Step 2</p> <img src="images/Step2.png" alt="Step2" onmouseover="showSquare1()" onmouseout="hideSquare1()" >
+        <p class="step">Step 2</p> 
+        <div class="row9">
+            <img src="images/Step2.png" alt="Step2" onmouseover="showSquare1()" onmouseout="hideSquare1()" >
             <div id="square1">
                 <p>Gather two yellow transparent Lego pieces. Put each Lego piece in the middle of the shorter side of the grey rectangular piece.</p>
               </div>
         </div>
-        <div>
-            <p>Step 3</p> <img src="images/Step3.png" alt="Step3" onmouseover="showSquare2()" onmouseout="hideSquare2()" >
+        <p class="step">Step 3</p>
+
+        <div class="row9">
+             <img src="images/Step3.png" alt="Step3" onmouseover="showSquare2()" onmouseout="hideSquare2()" >
             <div id="square2">
                 <p>Gather two white and two red circular pieces of Lego and place them in front of the blue square Lego piece. The order of the pieces should be one red and one white.</p>
               </div>
         </div>
-    </div>
-    <div class="row2">
-        <div>
-            <p>Step 4</p> <img src="images/Step4.png" alt="Step4" onmouseover="showSquare3()" onmouseout="hideSquare3()">
+
+        <p class="step">Step 4</p> 
+        <div class="row9">
+            <img src="images/Step4.png" alt="Step4" onmouseover="showSquare3()" onmouseout="hideSquare3()">
             <div id="square3">
                 <p>We will now build the robot. Start by adding the legs. For legs, we will use two light blue blocks.</p>
               </div>
         </div>
-        <div>
-            <p>Step 5</p> <img src="images/Step5.png" alt="Step5" onmouseover="showSquare4()" onmouseout="hideSquare4()">
+
+        <p class="step">Step 5</p>
+        <div class="row9">
+            <img src="images/Step5.png" alt="Step5" onmouseover="showSquare4()" onmouseout="hideSquare4()">
             <div id="square4">
                 <p>Place each block on the side of the blue square base.</p>
               </div>
         </div>
-        <div>
-            <p>Step 6</p> <img src="images/Step6.png" alt="Step6" onmouseover="showSquare5()" onmouseout="hideSquare5()">
+
+        <p class="step">Step 6</p> 
+        <div class="row9">
+            <img src="images/Step6.png" alt="Step6" onmouseover="showSquare5()" onmouseout="hideSquare5()">
             <div id="square5">
                 <p>On top of the two blocks add a 2x4 grey rectangular lego piece.</p>
-              </div>
+            </div>
         </div>
         </div>
-        <div class="row2">
-        <div>
-            <p>Step 7</p> <img src="images/Step7.png" alt="Step7" onmouseover="showSquare6()" onmouseout="hideSquare6()">
+
+        <p class="step">Step 7</p> 
+        <div class="row9">
+            <img src="images/Step7.png" alt="Step7" onmouseover="showSquare6()" onmouseout="hideSquare6()">
             <div id="square6">
                 <p>Add three blue blocks creating a U shape on top of the 2x4 rectangular block.</p>
-              </div>
+            </div>
         </div>
-        <div>
-            <p> Step 8</p> <img src="images/Step8.png" alt="Step8" onmouseover="showSquare7()" onmouseout="hideSquare7()">
+
+        <p class="step"> Step 8</p> 
+        <div class="row9">
+            <img src="images/Step8.png" alt="Step8" onmouseover="showSquare7()" onmouseout="hideSquare7()">
             <div id="square7">
                 <p>Add two single grey blocks in the space left on the 2x4 rectangular block between the three U-shaped blocks.</p>
               </div>
         </div>
-        <div>
-            <p>Step 9</p> <img src="images/Step9.png" alt="Step9" onmouseover="showSquare8()" onmouseout="hideSquare8()">
+
+        <p class="step">Step 9</p>
+        <div class="row9">
+             <img src="images/Step9.png" alt="Step9" onmouseover="showSquare8()" onmouseout="hideSquare8()">
             <div id="square8">
                 <p>Let's make the arms and torso. To do that, gather two blue curved Lego pieces and attach them to the corner of the blue blocks. In the middle of the two curved Lego blocks add a red rectangular piece.</p>
               </div>
         </div>
 
-    </div> 
-    <div class="row2">
-        <div>
-            <p>Step 10</p> <img src="images/Step10.png" alt="Step10" onmouseover="showSquare9()" onmouseout="hideSquare9()">
+        <p class="step">Step 10</p>
+        <div class="row9">
+             <img src="images/Step10.png" alt="Step10" onmouseover="showSquare9()" onmouseout="hideSquare9()">
             <div id="square9">
                 <p>Add a grey single-line rectangular piece in front of the curved and red Lego piece. Also, add a red and yellow circular Lego piece in front of the torso.</p>
               </div>
         </div>
-        <div>
-            <p> Step 11</p> <img src="images/Step11.png" alt="Step11" onmouseover="showSquare10()" onmouseout="hideSquare10()">
+
+        <p class="step"> Step 11</p>
+        <div class="row9">
+             <img src="images/Step11.png" alt="Step11" onmouseover="showSquare10()" onmouseout="hideSquare10()">
             <div id="square10">
                 <p>Let's make the neck. Gather a white 2x4 rectangular piece and add it on top of the torso. On top of that piece add a red square lego piece with five holes. On top of the red square add a 2x2 circular piece with a leg that goes in one of the holes on the square piece.</p>
-              </div>
+            </div>
         </div>
-        <div>
-            <p>Step 12</p> <img src="images/Step12.png" alt="Step12" onmouseover="showSquare11()" onmouseout="hideSquare11()">
+
+        <p class="step">Step 12</p>
+        <div class="row9">
+             <img src="images/Step12.png" alt="Step12" onmouseover="showSquare11()" onmouseout="hideSquare11()">
             <div id="square11">
                 <p>Lets make the head. Add a 2x4 white piece. On top  of the white piece add four blue single pieces with holes in them. At back of the four blue single blocks add two green single block Lego pieces with holes in them and add a blue two block in the middle of the green.</p>
-              </div>
+            </div>
         </div>
         
-    </div> 
-    <div class="row2">
-        <div>
-            <p>Step 13</p> <img src="images/Step13.png" alt="Step13" onmouseover="showSquare12()" onmouseout="hideSquare12()">
+        <p class="step">Step 13</p>
+        <div class="row9">
+             <img src="images/Step13.png" alt="Step13" onmouseover="showSquare12()" onmouseout="hideSquare12()">
             <div id="square12">
                 <p>Let's add the eyes on the side holes of the blue singular blocks. Between the eyes add a three-line rectangular Lego piece making a face. Add on top of that add a grey 2x4 piece and on the side of the green pieces add two singular white pieces.</p>
-              </div>
+            </div>
         </div>
-        <div>
-            <p> Step 14</p> <img src="images/Step14.png" alt="Step14" onmouseover="showSquare13()" onmouseout="hideSquare13()">
+        
+        <p class="step"> Step 14</p>
+        <div class="row9">
+             <img src="images/Step14.png" alt="Step14" onmouseover="showSquare13()" onmouseout="hideSquare13()">
             <div id="square13">
                 <p>Let's add the robot Antenna on top of the head. To do that use a black Lego head. On top of the black Lego head add a shiny red circular piece.</p>
-              </div>
+            </div>
         </div>
-        <div>
-            <p>Step 15</p> <img src="images/Step15.png" alt="Step15" onmouseover="showSquare14()" onmouseout="hideSquare14()">
+
+        <p class="step">Step 15</p> 
+        <div class="row9">
+            <img src="images/Step15.png" alt="Step15" onmouseover="showSquare14()" onmouseout="hideSquare14()">
             <div id="square14">
                 <p>Finally, attach the head on top of the neck</p>
               </div>
         </div>
         
-    </div> 
-</div>
+
+
 
     <!-- <div class="row2">
         <div class="container2">
